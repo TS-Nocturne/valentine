@@ -3,7 +3,7 @@ const mainContent = document.getElementById("main-content");
 const countdownElement = document.getElementById("countdown");
 
 // กำหนดวันวาเลนไทน์ 14 กุมภาพันธ์ 2025 เวลา 00:00:00
-const valentineDate = new Date("February 14, 2025 00:00:00").getTime();
+const valentineDate = new Date("February 13, 2025 00:00:00").getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
